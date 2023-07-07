@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    left: 5%;
+    top: -3%;
+    display: inline-block;
+}
+
+.logo img:hover {
+    text-shadow: 3px 3px 3px white;
+}
+
+.container img {
+    height: 700px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+
+
+.logo a {
+    display: inline-block;
+    top: 5%;
+    position: absolute;
+    right: 15%;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+}
+
+.logo form select {
+    display: inline-block;
+    top: 5%;
+    position: absolute;
+    right: 9%;
+
+    width: 80px;
+}
+
+.text h1 {
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+
+.text h4 {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    font-size: 25px;
+    color: white;
+}
+
+.text p {
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    color: white;
+    font-weight: bolder;
+}
+
+#mail {
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    height: 46px;
+    width: 320px;
+    font-size: 20px;
+    border-radius: 6px;
+    opacity: 70%;
+    border: 2px solid black;
+    color: black;
+}
+
+.text a {
+    position: absolute;
+    top: 468px;
+    left: 50%;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 0px;
+}
+
+#mail:hover {
+    opacity: 100%;
+}
+
+.text a:hover {
+    opacity: 100%;
+}
+
+.point {
+    display: flex;
+    background-color: black;
+}
+
+.text1 {
+    color: white;
+}
+
+.text1 h1 {
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    left: 190px;
+}
+
+.text1 h2 {
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    left: 190px;
+}
+
+.image img {
+    margin-left: 350px;
+}
+
+.image2 img {
+    margin-left: 380px;
+}
+
+.question {
+    background-color: black;
+    padding-bottom: 60px;
+    text-align: center;
+    padding-top: 20px;
+    height: 895px;
+}
+
+.question button {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(103, 100, 100);
+    width: 1100px;
+    height: 60px;
+}
+
+.question h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.one button:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.six button:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.five button:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.four button:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.three button:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.two button:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.one button {
+    padding-right: 800px;
+}
+
+.one span {
+    position: absolute;
+    right: 19%;
+}
+
+.two button {
+    padding-right: 626px;
+}
+
+.two span {
+    position: absolute;
+    right: 19%;
+}
+
+.three button {
+    padding-right: 746px;
+}
+
+.three span {
+    position: absolute;
+    right: 19%;
+}
+
+.four button {
+    padding-right: 783px;
+}
+
+.four span {
+    position: absolute;
+    right: 19%;
+}
+
+.five button {
+    padding-right: 633px;
+}
+
+.five span {
+    position: absolute;
+    right: 19%;
+}
+
+.six button {
+    padding-right: 700px;
+}
+
+.six span {
+    position: absolute;
+    right: 19%;
+}
+
+span:hover {
+    background-color: rgb(24, 130, 223);
+}
+
+
+
+.ans form input {
+    position: absolute;
+    top: 3473px;
+    left: 34%;
+    height: 46px;
+    width: 320px;
+    font-size: 20px;
+    border-radius: 6px;
+    opacity: 70%;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.ans form a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 0px;
+    font-size: 30px;
+    position: absolute;
+    top: 3473px;
+    left: 55%;
+
+}
+
+.ans form input:hover {
+    opacity: 100%;
+    box-shadow: 3px 3px red;
+}
+
+.ans form a:hover {
+    box-shadow: 3px 3px rgb(255, 255, 255);
+}
+
+.row {
+    display: flex;
+    background-color: black;
+    margin-bottom: 20px;
+    padding: 100px 0px;
+    padding-left: 20px;
+}
+
+.col {
+    flex-basis: 33.33%;
+}
+
+.col ul {
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+.col ul li {
+    padding: 10px 0px;
+}
+
+.col ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li ul.dropdown {
+    min-width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 66%;
+    width: 90px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown li a {
+    font-size: 14px;
+    padding: 10px 15px;
+    text-decoration: underline;
+}
